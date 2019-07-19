@@ -1,0 +1,58 @@
+﻿@model IEnumerable<string>
+@{
+    ViewBag.Title = "Error";
+}
+
+<h2>Error</h2>
+
+@if (ViewBag.ErrorMessage == "You can't schedule showing before 9:00 AM")
+{
+    <h3 style="color: red"> @ViewBag.ErrorMessage</h3>
+}
+
+@if (ViewBag.ErrorMessage == "There should be at least one movie start before 10 AM")
+{
+    <h3 style="color: red"> @ViewBag.ErrorMessage</h3>
+}
+@if (ViewBag.ErrorMessage == "You need to schedule an additional movie after 9:30 PM")
+{
+    <h3 style="color: red"> @ViewBag.ErrorMessage</h3>
+}
+
+@if (ViewBag.ErrorMessage == "The gap between two movies should be longer than 25 minutes")
+{
+    <h3 style="color: red"> @ViewBag.ErrorMessage</h3>
+}
+
+@if (ViewBag.ErrorMessage == "The gap between two movies should be less than 45 minutes")
+{
+    <h3 style="color: red"> @ViewBag.ErrorMessage</h3>
+}
+@if (ViewBag.ErrorMessage1 == "The movie can't have same showtime on two theatres")
+{
+    <h3 style="color: red"> @ViewBag.ErrorMessage1</h3>
+}
+@if (ViewBag.ErrorMessage1 == "No schedule available")
+{
+    <h3 style="color: red"> @ViewBag.ErrorMessage1</h3>
+}
+@if (ViewBag.ErrorMessage1 == "You can't schedule showing after Midnight")
+{
+    <h3 style="color: red"> @ViewBag.ErrorMessage1</h3>
+}
+@if (ViewBag.NoCancelTwice == "This showing has already been cancelled")
+{
+    <h3 style="color: red"> @ViewBag.NoCancelTwice</h3>
+}
+@if (ViewBag.ErrorCancellationShowing == "You can't cancel this showing because it has already started")
+{
+    <h3 style="color: red"> @ViewBag.ErrorCancellationShowing</h3>
+}
+@if (ViewBag.NoDate == "You need to select a date")
+{
+    <h3 style="color: red"> @ViewBag.NoDate</h3>
+}
+
+
+@Html.ActionLink("OK", "Index", "Showings", null, new { @class = "btn btn-success" })
+

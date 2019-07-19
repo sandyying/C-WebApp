@@ -1,0 +1,13 @@
+﻿@model IEnumerable<string>
+@{
+    ViewBag.Title = "EmployeeError";
+}
+
+<h2>Error</h2>
+
+@if (ViewBag.ErrorE == "The employee need to at least 18 years old")
+{
+    <h3 style="color: red"> @ViewBag.ErrorE</h3>
+}
+
+@Html.ActionLink("OK", "Index", "Employees", null, new { @class = "btn btn-success" })

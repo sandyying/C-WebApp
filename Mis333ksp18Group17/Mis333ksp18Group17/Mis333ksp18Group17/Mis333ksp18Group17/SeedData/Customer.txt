@@ -1,0 +1,918 @@
+Customer c0= new Customer() ;
+c0.ID =5001;
+c0.Password ="hello1";
+c0.Last Name ="Baker";
+c0.First Name ="Christopher";
+c0.Middle Initial ="L.";
+c0.Birthday =11/23/1949;
+c0.Street ="1245 Lake Anchorage Blvd.";
+c0.City ="Austin";
+c0.State ="TX";
+c0.Zip =78705;
+c0.SSN =9075571146;
+c0.Email ="cbaker@example.com";
+c0.PopcornPoints =110;
+db.Movie.AddOrUpdate(c => c.SSN, r0);
+db.SaveChanges();
+
+
+Customer c1= new Customer() ;
+c1.ID =5002;
+c1.Password ="potato";
+c1.Last Name ="Banks";
+c1.First Name ="Michelle";
+c1.Middle Initial ="not avaliable";
+c1.Birthday =11/27/1962;
+c1.Street ="1300 Tall Pine Lane";
+c1.City ="Austin";
+c1.State ="TX";
+c1.Zip =78712;
+c1.SSN =9042678873;
+c1.Email ="banker@longhorn.net";
+c1.PopcornPoints =40;
+db.Movie.AddOrUpdate(c => c.SSN, r1);
+db.SaveChanges();
+
+
+Customer c2= new Customer() ;
+c2.ID =5003;
+c2.Password ="painting";
+c2.Last Name ="Broccolo";
+c2.First Name ="Franco";
+c2.Middle Initial ="V";
+c2.Birthday =10/11/1992;
+c2.Street ="62 Browning Road";
+c2.City ="Austin";
+c2.State ="TX";
+c2.Zip =78704;
+c2.SSN =4155659699;
+c2.Email ="franco@example.com";
+c2.PopcornPoints =30;
+db.Movie.AddOrUpdate(c => c.SSN, r2);
+db.SaveChanges();
+
+
+Customer c3= new Customer() ;
+c3.ID =5004;
+c3.Password ="texas1";
+c3.Last Name ="Chang";
+c3.First Name ="Wendy";
+c3.Middle Initial ="L";
+c3.Birthday =5/16/1997;
+c3.Street ="202 Bellmont Hall";
+c3.City ="Round Rock";
+c3.State ="TX";
+c3.Zip =78681;
+c3.SSN =9075943222;
+c3.Email ="wchang@example.com";
+c3.PopcornPoints =0;
+db.Movie.AddOrUpdate(c => c.SSN, r3);
+db.SaveChanges();
+
+
+Customer c4= new Customer() ;
+c4.ID =5005;
+c4.Password ="Anchorage";
+c4.Last Name ="Chou";
+c4.First Name ="Lim";
+c4.Middle Initial ="not avaliable";
+c4.Birthday =4/6/1970;
+c4.Street ="1600 Teresa Lane";
+c4.City ="Austin";
+c4.State ="TX";
+c4.Zip =78705;
+c4.SSN =8137724599;
+c4.Email ="limchou@gogle.com";
+c4.PopcornPoints =40;
+db.Movie.AddOrUpdate(c => c.SSN, r4);
+db.SaveChanges();
+
+
+Customer c5= new Customer() ;
+c5.ID =5006;
+c5.Password ="pepperoni";
+c5.Last Name ="Dixon";
+c5.First Name ="Shan";
+c5.Middle Initial ="D";
+c5.Birthday =1/12/1984;
+c5.Street ="234 Holston Circle";
+c5.City ="Austin";
+c5.State ="TX";
+c5.Zip =78712;
+c5.SSN =2052643255;
+c5.Email ="shdixon@aoll.com";
+c5.PopcornPoints =20;
+db.Movie.AddOrUpdate(c => c.SSN, r5);
+db.SaveChanges();
+
+
+Customer c6= new Customer() ;
+c6.ID =5007;
+c6.Password ="longhorns";
+c6.Last Name ="Evans";
+c6.First Name ="Jim Bob";
+c6.Middle Initial ="not avaliable";
+c6.Birthday =9/9/1959;
+c6.Street ="506 Farrell Circle";
+c6.City ="Georgetown";
+c6.State ="TX";
+c6.Zip =78628;
+c6.SSN =2102565834;
+c6.Email ="j.b.evans@aheca.org";
+c6.PopcornPoints =50;
+db.Movie.AddOrUpdate(c => c.SSN, r6);
+db.SaveChanges();
+
+
+Customer c7= new Customer() ;
+c7.ID =5008;
+c7.Password ="aggies";
+c7.Last Name ="Feeley";
+c7.First Name ="Lou Ann";
+c7.Middle Initial ="K";
+c7.Birthday =1/12/2001;
+c7.Street ="600 S 8th Street W";
+c7.City ="Austin";
+c7.State ="TX";
+c7.Zip =78746;
+c7.SSN =4062556749;
+c7.Email ="feeley@penguin.org";
+c7.PopcornPoints =170;
+db.Movie.AddOrUpdate(c => c.SSN, r7);
+db.SaveChanges();
+
+
+Customer c8= new Customer() ;
+c8.ID =5009;
+c8.Password ="raiders";
+c8.Last Name ="Freeley";
+c8.First Name ="Tesa";
+c8.Middle Initial ="P";
+c8.Birthday =2/4/1991;
+c8.Street ="4448 Fairview Ave.";
+c8.City ="Horseshoe Bay";
+c8.State ="TX";
+c8.Zip =78657;
+c8.SSN =6123255687;
+c8.Email ="tfreeley@minnetonka.ci.us";
+c8.PopcornPoints =160;
+db.Movie.AddOrUpdate(c => c.SSN, r8);
+db.SaveChanges();
+
+
+Customer c9= new Customer() ;
+c9.ID =5010;
+c9.Password ="mustangs";
+c9.Last Name ="Garcia";
+c9.First Name ="Margaret";
+c9.Middle Initial ="L";
+c9.Birthday =10/2/1991;
+c9.Street ="594 Longview";
+c9.City ="Austin";
+c9.State ="TX";
+c9.Zip =78727;
+c9.SSN =4066593544;
+c9.Email ="mgarcia@gogle.com";
+c9.PopcornPoints =10;
+db.Movie.AddOrUpdate(c => c.SSN, r9);
+db.SaveChanges();
+
+
+Customer c10= new Customer() ;
+c10.ID =5011;
+c10.Password ="onetime";
+c10.Last Name ="Haley";
+c10.First Name ="Charles";
+c10.Middle Initial ="E";
+c10.Birthday =7/10/1974;
+c10.Street ="One Cowboy Pkwy";
+c10.City ="Austin";
+c10.State ="TX";
+c10.Zip =78712;
+c10.SSN =2148475583;
+c10.Email ="chaley@thug.com";
+c10.PopcornPoints =40;
+db.Movie.AddOrUpdate(c => c.SSN, r10);
+db.SaveChanges();
+
+
+Customer c11= new Customer() ;
+c11.ID =5012;
+c11.Password ="hampton1";
+c11.Last Name ="Hampton";
+c11.First Name ="Jeffrey";
+c11.Middle Initial ="T.";
+c11.Birthday =3/10/2004;
+c11.Street ="337 38th St.";
+c11.City ="San Marcos";
+c11.State ="TX";
+c11.Zip =78666;
+c11.SSN =9076978613;
+c11.Email ="jeffh@sonic.com";
+c11.PopcornPoints =150;
+db.Movie.AddOrUpdate(c => c.SSN, r11);
+db.SaveChanges();
+
+
+Customer c12= new Customer() ;
+c12.ID =5013;
+c12.Password ="jhearn22";
+c12.Last Name ="Hearn";
+c12.First Name ="John";
+c12.Middle Initial ="B";
+c12.Birthday =8/5/1950;
+c12.Street ="4225 North First";
+c12.City ="Austin";
+c12.State ="TX";
+c12.Zip =78705;
+c12.SSN =5208965621;
+c12.Email ="wjhearniii@umich.org";
+c12.PopcornPoints =0;
+db.Movie.AddOrUpdate(c => c.SSN, r12);
+db.SaveChanges();
+
+
+Customer c13= new Customer() ;
+c13.ID =5014;
+c13.Password ="hickhickup";
+c13.Last Name ="Hicks";
+c13.First Name ="Anthony";
+c13.Middle Initial ="J";
+c13.Birthday =12/8/2004;
+c13.Street ="32 NE Garden Ln., Ste 910";
+c13.City ="Austin";
+c13.State ="TX";
+c13.Zip =78712;
+c13.SSN =7355788965;
+c13.Email ="ahick@yaho.com";
+c13.PopcornPoints =60;
+db.Movie.AddOrUpdate(c => c.SSN, r13);
+db.SaveChanges();
+
+
+Customer c14= new Customer() ;
+c14.ID =5015;
+c14.Password ="ingram2015";
+c14.Last Name ="Ingram";
+c14.First Name ="Brad";
+c14.Middle Initial ="S.";
+c14.Birthday =9/5/2001;
+c14.Street ="6548 La Posada Ct.";
+c14.City ="New York";
+c14.State ="NY";
+c14.Zip =10101;
+c14.SSN =9074678821;
+c14.Email ="ingram@jack.com";
+c14.PopcornPoints =20;
+db.Movie.AddOrUpdate(c => c.SSN, r14);
+db.SaveChanges();
+
+
+Customer c15= new Customer() ;
+c15.ID =5016;
+c15.Password ="toddy25";
+c15.Last Name ="Jacobs";
+c15.First Name ="Todd";
+c15.Middle Initial ="L.";
+c15.Birthday =1/20/1999;
+c15.Street ="4564 Elm St.";
+c15.City ="Austin";
+c15.State ="TX";
+c15.Zip =78729;
+c15.SSN =9074653365;
+c15.Email ="toddj@yourmom.com";
+c15.PopcornPoints =170;
+db.Movie.AddOrUpdate(c => c.SSN, r15);
+db.SaveChanges();
+
+
+Customer c16= new Customer() ;
+c16.ID =5017;
+c16.Password ="something";
+c16.Last Name ="Lawrence";
+c16.First Name ="Victoria";
+c16.Middle Initial ="M.";
+c16.Birthday =4/14/2000;
+c16.Street ="6639 Butterfly Ln.";
+c16.City ="Beverly Hills";
+c16.State ="CA";
+c16.Zip =90210;
+c16.SSN =9079457399;
+c16.Email ="thequeen@aska.net";
+c16.PopcornPoints =130;
+db.Movie.AddOrUpdate(c => c.SSN, r16);
+db.SaveChanges();
+
+
+Customer c17= new Customer() ;
+c17.ID =5018;
+c17.Password ="Password1";
+c17.Last Name ="Lineback";
+c17.First Name ="Erik";
+c17.Middle Initial ="W";
+c17.Birthday =12/2/2003;
+c17.Street ="1300 Netherland St";
+c17.City ="Austin";
+c17.State ="TX";
+c17.Zip =78758;
+c17.SSN =3032449976;
+c17.Email ="linebacker@gogle.com";
+c17.PopcornPoints =60;
+db.Movie.AddOrUpdate(c => c.SSN, r17);
+db.SaveChanges();
+
+
+Customer c18= new Customer() ;
+c18.ID =5019;
+c18.Password ="aclfest2017";
+c18.Last Name ="Lowe";
+c18.First Name ="Ernest";
+c18.Middle Initial ="S";
+c18.Birthday =12/7/1977;
+c18.Street ="3201 Pine Drive";
+c18.City ="New Braunfels";
+c18.State ="TX";
+c18.Zip =78130;
+c18.SSN =7135344627;
+c18.Email ="elowe@netscare.net";
+c18.PopcornPoints =20;
+db.Movie.AddOrUpdate(c => c.SSN, r18);
+db.SaveChanges();
+
+
+Customer c19= new Customer() ;
+c19.ID =5020;
+c19.Password ="nothinggood";
+c19.Last Name ="Luce";
+c19.First Name ="Chuck";
+c19.Middle Initial ="B";
+c19.Birthday =3/16/1949;
+c19.Street ="2345 Rolling Clouds";
+c19.City ="Cactus";
+c19.State ="TX";
+c19.Zip =79013;
+c19.SSN =9546983548;
+c19.Email ="cluce@gogle.com";
+c19.PopcornPoints =180;
+db.Movie.AddOrUpdate(c => c.SSN, r19);
+db.SaveChanges();
+
+
+Customer c20= new Customer() ;
+c20.ID =5021;
+c20.Password ="whatever";
+c20.Last Name ="MacLeod";
+c20.First Name ="Jennifer";
+c20.Middle Initial ="D.";
+c20.Birthday =2/21/1947;
+c20.Street ="2504 Far West Blvd.";
+c20.City ="Marble Falls";
+c20.State ="TX";
+c20.Zip =78654;
+c20.SSN =9074748138;
+c20.Email ="mackcloud@george.com";
+c20.PopcornPoints =170;
+db.Movie.AddOrUpdate(c => c.SSN, r20);
+db.SaveChanges();
+
+
+Customer c21= new Customer() ;
+c21.ID =5022;
+c21.Password ="whocares";
+c21.Last Name ="Markham";
+c21.First Name ="Elizabeth";
+c21.Middle Initial ="P.";
+c21.Birthday =3/20/1972;
+c21.Street ="7861 Chevy Chase";
+c21.City ="Kissimmee";
+c21.State ="FL";
+c21.Zip =34741;
+c21.SSN =9074579845;
+c21.Email ="cmartin@beets.com";
+c21.PopcornPoints =100;
+db.Movie.AddOrUpdate(c => c.SSN, r21);
+db.SaveChanges();
+
+
+Customer c22= new Customer() ;
+c22.ID =5023;
+c22.Password ="xcellent";
+c22.Last Name ="Martin";
+c22.First Name ="Clarence";
+c22.Middle Initial ="A";
+c22.Birthday =7/19/1992;
+c22.Street ="87 Alcedo St.";
+c22.City ="Austin";
+c22.State ="TX";
+c22.Zip =78709;
+c22.SSN =9204955201;
+c22.Email ="clarence@yoho.com";
+c22.PopcornPoints =130;
+db.Movie.AddOrUpdate(c => c.SSN, r22);
+db.SaveChanges();
+
+
+Customer c23= new Customer() ;
+c23.ID =5024;
+c23.Password ="snowsnow";
+c23.Last Name ="Martinez";
+c23.First Name ="Gregory";
+c23.Middle Initial ="R.";
+c23.Birthday =5/28/1947;
+c23.Street ="8295 Sunset Blvd.";
+c23.City ="Red Rock";
+c23.State ="TX";
+c23.Zip =78662;
+c23.SSN =9078746718;
+c23.Email ="gregmartinez@drdre.com";
+c23.PopcornPoints =20;
+db.Movie.AddOrUpdate(c => c.SSN, r23);
+db.SaveChanges();
+
+
+Customer c24= new Customer() ;
+c24.ID =5025;
+c24.Password ="mydogspot";
+c24.Last Name ="Miller";
+c24.First Name ="Charles";
+c24.Middle Initial ="R.";
+c24.Birthday =10/15/1990;
+c24.Street ="8962 Main St.";
+c24.City ="South Padre Island";
+c24.State ="TX";
+c24.Zip =78597;
+c24.SSN =9077458615;
+c24.Email ="cmiller@bob.com";
+c24.PopcornPoints =20;
+db.Movie.AddOrUpdate(c => c.SSN, r24);
+db.SaveChanges();
+
+
+Customer c25= new Customer() ;
+c25.ID =5026;
+c25.Password ="spotmydog";
+c25.Last Name ="Nelson";
+c25.First Name ="Kelly";
+c25.Middle Initial ="T";
+c25.Birthday =7/13/1971;
+c25.Street ="2601 Red River";
+c25.City ="Disney";
+c25.State ="OK";
+c25.Zip =74340;
+c25.SSN =9072926966;
+c25.Email ="knelson@aoll.com";
+c25.PopcornPoints =110;
+db.Movie.AddOrUpdate(c => c.SSN, r25);
+db.SaveChanges();
+
+
+Customer c26= new Customer() ;
+c26.ID =5027;
+c26.Password ="joejoejoe";
+c26.Last Name ="Nguyen";
+c26.First Name ="Joe";
+c26.Middle Initial ="C";
+c26.Birthday =3/17/1984;
+c26.Street ="1249 4th SW St.";
+c26.City ="Del Rio";
+c26.State ="TX";
+c26.Zip =78841;
+c26.SSN =2023125897;
+c26.Email ="joewin@xfactor.com";
+c26.PopcornPoints =150;
+db.Movie.AddOrUpdate(c => c.SSN, r26);
+db.SaveChanges();
+
+
+Customer c27= new Customer() ;
+c27.ID =5028;
+c27.Password ="billyboy";
+c27.Last Name ="O'Reilly";
+c27.First Name ="Bill";
+c27.Middle Initial ="T";
+c27.Birthday =7/8/1959;
+c27.Street ="8800 Gringo Drive";
+c27.City ="Austin";
+c27.State ="TX";
+c27.Zip =78746;
+c27.SSN =3173450925;
+c27.Email ="orielly@foxnews.cnn";
+c27.PopcornPoints =190;
+db.Movie.AddOrUpdate(c => c.SSN, r27);
+db.SaveChanges();
+
+
+Customer c28= new Customer() ;
+c28.ID =5029;
+c28.Password ="radgirl";
+c28.Last Name ="Radkovich";
+c28.First Name ="Anka";
+c28.Middle Initial ="L";
+c28.Birthday =5/19/1966;
+c28.Street ="1300 Elliott Pl";
+c28.City ="Austin";
+c28.State ="TX";
+c28.Zip =78712;
+c28.SSN =3022345566;
+c28.Email ="ankaisrad@gogle.com";
+c28.PopcornPoints =120;
+db.Movie.AddOrUpdate(c => c.SSN, r28);
+db.SaveChanges();
+
+
+Customer c29= new Customer() ;
+c29.ID =5030;
+c29.Password ="meganr34";
+c29.Last Name ="Rhodes";
+c29.First Name ="Megan";
+c29.Middle Initial ="C.";
+c29.Birthday =3/12/1965;
+c29.Street ="4587 Enfield Rd.";
+c29.City ="Austin";
+c29.State ="TX";
+c29.Zip =78705;
+c29.SSN =9073744746;
+c29.Email ="megrhodes@freserve.co.uk";
+c29.PopcornPoints =190;
+db.Movie.AddOrUpdate(c => c.SSN, r29);
+db.SaveChanges();
+
+
+Customer c30= new Customer() ;
+c30.ID =5031;
+c30.Password ="ricearoni";
+c30.Last Name ="Rice";
+c30.First Name ="Eryn";
+c30.Middle Initial ="M.";
+c30.Birthday =4/28/1975;
+c30.Street ="3405 Rio Grande";
+c30.City ="Austin";
+c30.State ="TX";
+c30.Zip =78785;
+c30.SSN =9073876657;
+c30.Email ="erynrice@aoll.com";
+c30.PopcornPoints =190;
+db.Movie.AddOrUpdate(c => c.SSN, r30);
+db.SaveChanges();
+
+
+Customer c31= new Customer() ;
+c31.ID =5032;
+c31.Password ="jrod2017";
+c31.Last Name ="Rodriguez";
+c31.First Name ="Jorge";
+c31.Middle Initial ="not avaliable";
+c31.Birthday =12/8/1953;
+c31.Street ="6788 Cotter Street";
+c31.City ="Littlefield";
+c31.State ="TX";
+c31.Zip =79339;
+c31.SSN =4158904374;
+c31.Email ="jorge@noclue.com";
+c31.PopcornPoints =20;
+db.Movie.AddOrUpdate(c => c.SSN, r31);
+db.SaveChanges();
+
+
+Customer c32= new Customer() ;
+c32.ID =5033;
+c32.Password ="rogerthat";
+c32.Last Name ="Rogers";
+c32.First Name ="Allen";
+c32.Middle Initial ="B.";
+c32.Birthday =4/22/1973;
+c32.Street ="4965 Oak Hill";
+c32.City ="Austin";
+c32.State ="TX";
+c32.Zip =78733;
+c32.SSN =9078752943;
+c32.Email ="mrrogers@lovelyday.com";
+c32.PopcornPoints =100;
+db.Movie.AddOrUpdate(c => c.SSN, r32);
+db.SaveChanges();
+
+
+Customer c33= new Customer() ;
+c33.ID =5034;
+c33.Password ="bunnyhop";
+c33.Last Name ="Saint-Jean";
+c33.First Name ="Olivier";
+c33.Middle Initial ="M";
+c33.Birthday =2/19/1995;
+c33.Street ="255 Toncray Dr.";
+c33.City ="Austin";
+c33.State ="TX";
+c33.Zip =78755;
+c33.SSN =3434145678;
+c33.Email ="stjean@athome.com";
+c33.PopcornPoints =250;
+db.Movie.AddOrUpdate(c => c.SSN, r33);
+db.SaveChanges();
+
+
+Customer c34= new Customer() ;
+c34.ID =5035;
+c34.Password ="penguin12";
+c34.Last Name ="Saunders";
+c34.First Name ="Sarah";
+c34.Middle Initial ="J.";
+c34.Birthday =2/19/1978;
+c34.Street ="332 Avenue C";
+c34.City ="Austin";
+c34.State ="TX";
+c34.Zip =78701;
+c34.SSN =9073497810;
+c34.Email ="saunders@pen.com";
+c34.PopcornPoints =40;
+db.Movie.AddOrUpdate(c => c.SSN, r34);
+db.SaveChanges();
+
+
+Customer c35= new Customer() ;
+c35.ID =5036;
+c35.Password ="alaskaboy";
+c35.Last Name ="Sewell";
+c35.First Name ="William";
+c35.Middle Initial ="T.";
+c35.Birthday =12/23/2004;
+c35.Street ="2365 51st St.";
+c35.City ="El Paso";
+c35.State ="TX";
+c35.Zip =79953;
+c35.SSN =9074510084;
+c35.Email ="willsheff@email.com";
+c35.PopcornPoints =200;
+db.Movie.AddOrUpdate(c => c.SSN, r35);
+db.SaveChanges();
+
+
+Customer c36= new Customer() ;
+c36.ID =5037;
+c36.Password ="martin1234";
+c36.Last Name ="Sheffield";
+c36.First Name ="Martin";
+c36.Middle Initial ="J.";
+c36.Birthday =5/8/1960;
+c36.Street ="3886 Avenue A";
+c36.City ="Balmorhea";
+c36.State ="TX";
+c36.Zip =79718;
+c36.SSN =9075479167;
+c36.Email ="sheffiled@gogle.com";
+c36.PopcornPoints =130;
+db.Movie.AddOrUpdate(c => c.SSN, r36);
+db.SaveChanges();
+
+
+Customer c37= new Customer() ;
+c37.ID =5038;
+c37.Password ="smitty444";
+c37.Last Name ="Smith";
+c37.First Name ="John";
+c37.Middle Initial ="A";
+c37.Birthday =6/25/1955;
+c37.Street ="23 Hidden Forge Dr.";
+c37.City ="Austin";
+c37.State ="TX";
+c37.Zip =78760;
+c37.SSN =2838321888;
+c37.Email ="johnsmith187@aoll.com";
+c37.PopcornPoints =130;
+db.Movie.AddOrUpdate(c => c.SSN, r37);
+db.SaveChanges();
+
+
+Customer c38= new Customer() ;
+c38.ID =5039;
+c38.Password ="dustydusty";
+c38.Last Name ="Stroud";
+c38.First Name ="Dustin";
+c38.Middle Initial ="P";
+c38.Birthday =7/26/1967;
+c38.Street ="1212 Rita Rd";
+c38.City ="Austin";
+c38.State ="TX";
+c38.Zip =78734;
+c38.SSN =2172346667;
+c38.Email ="dustroud@mail.com";
+c38.PopcornPoints =90;
+db.Movie.AddOrUpdate(c => c.SSN, r38);
+db.SaveChanges();
+
+
+Customer c39= new Customer() ;
+c39.ID =5040;
+c39.Password ="stewball";
+c39.Last Name ="Stuart";
+c39.First Name ="Eric";
+c39.Middle Initial ="D.";
+c39.Birthday =12/4/1947;
+c39.Street ="5576 Toro Ring";
+c39.City ="Kyle";
+c39.State ="TX";
+c39.Zip =78640;
+c39.SSN =9078178335;
+c39.Email ="estuart@anchor.net";
+c39.PopcornPoints =170;
+db.Movie.AddOrUpdate(c => c.SSN, r39);
+db.SaveChanges();
+
+
+Customer c40= new Customer() ;
+c40.ID =5041;
+c40.Password ="slowwind";
+c40.Last Name ="Stump";
+c40.First Name ="Peter";
+c40.Middle Initial ="L";
+c40.Birthday =7/10/1974;
+c40.Street ="1300 Kellen Circle";
+c40.City ="Philadelphia";
+c40.State ="PA";
+c40.Zip =19123;
+c40.SSN =2084560903;
+c40.Email ="peterstump@noclue.com";
+c40.PopcornPoints =50;
+db.Movie.AddOrUpdate(c => c.SSN, r40);
+db.SaveChanges();
+
+
+Customer c41= new Customer() ;
+c41.ID =5042;
+c41.Password ="tanner5454";
+c41.Last Name ="Tanner";
+c41.First Name ="Jeremy";
+c41.Middle Initial ="S.";
+c41.Birthday =1/11/1944;
+c41.Street ="4347 Almstead";
+c41.City ="Austin";
+c41.State ="TX";
+c41.Zip =78747;
+c41.SSN =9074590929;
+c41.Email ="jtanner@mustang.net";
+c41.PopcornPoints =190;
+db.Movie.AddOrUpdate(c => c.SSN, r41);
+db.SaveChanges();
+
+
+Customer c42= new Customer() ;
+c42.ID =5043;
+c42.Password ="allyrally";
+c42.Last Name ="Taylor";
+c42.First Name ="Allison";
+c42.Middle Initial ="R.";
+c42.Birthday =11/14/1990;
+c42.Street ="467 Nueces St.";
+c42.City ="Austin";
+c42.State ="TX";
+c42.Zip =78712;
+c42.SSN =9074748452;
+c42.Email ="taylordjay@aoll.com";
+c42.PopcornPoints =110;
+db.Movie.AddOrUpdate(c => c.SSN, r42);
+db.SaveChanges();
+
+
+Customer c43= new Customer() ;
+c43.ID =5044;
+c43.Password ="taylorbaylor";
+c43.Last Name ="Taylor";
+c43.First Name ="Rachel";
+c43.Middle Initial ="K.";
+c43.Birthday =1/18/1976;
+c43.Street ="345 Longview Dr.";
+c43.City ="Austin";
+c43.State ="TX";
+c43.Zip =78758;
+c43.SSN =9074907631;
+c43.Email ="rtaylor@gogle.com";
+c43.PopcornPoints =160;
+db.Movie.AddOrUpdate(c => c.SSN, r43);
+db.SaveChanges();
+
+
+Customer c44= new Customer() ;
+c44.ID =5045;
+c44.Password ="teeoff22";
+c44.Last Name ="Tee";
+c44.First Name ="Frank";
+c44.Middle Initial ="J";
+c44.Birthday =9/6/1998;
+c44.Street ="5590 Lavell Dr";
+c44.City ="Austin";
+c44.State ="TX";
+c44.Zip =78729;
+c44.SSN =2138765543;
+c44.Email ="teefrank@noclue.com";
+c44.PopcornPoints =70;
+db.Movie.AddOrUpdate(c => c.SSN, r44);
+db.SaveChanges();
+
+
+Customer c45= new Customer() ;
+c45.ID =5046;
+c45.Password ="tucksack1";
+c45.Last Name ="Tucker";
+c45.First Name ="Clent";
+c45.Middle Initial ="J";
+c45.Birthday =2/25/1943;
+c45.Street ="312 Main St.";
+c45.City ="Round Rock";
+c45.State ="TX";
+c45.Zip =78665;
+c45.SSN =9038471154;
+c45.Email ="ctucker@alphabet.co.uk";
+c45.PopcornPoints =150;
+db.Movie.AddOrUpdate(c => c.SSN, r45);
+db.SaveChanges();
+
+
+Customer c46= new Customer() ;
+c46.ID =5047;
+c46.Password ="meow88";
+c46.Last Name ="Velasco";
+c46.First Name ="Allen";
+c46.Middle Initial ="G";
+c46.Birthday =9/10/1985;
+c46.Street ="679 W. 4th";
+c46.City ="Cedar Park";
+c46.State ="TX";
+c46.Zip =78613;
+c46.SSN =3103985638;
+c46.Email ="avelasco@yoho.com";
+c46.PopcornPoints =0;
+db.Movie.AddOrUpdate(c => c.SSN, r46);
+db.SaveChanges();
+
+
+Customer c47= new Customer() ;
+c47.ID =5048;
+c47.Password ="vinovino";
+c47.Last Name ="Vino";
+c47.First Name ="Janet";
+c47.Middle Initial ="E";
+c47.Birthday =2/7/1985;
+c47.Street ="189 Grape Road";
+c47.City ="Lockhart";
+c47.State ="TX";
+c47.Zip =78644;
+c47.SSN =8175643832;
+c47.Email ="vinovino@grapes.com";
+c47.PopcornPoints =160;
+db.Movie.AddOrUpdate(c => c.SSN, r47);
+db.SaveChanges();
+
+
+Customer c48= new Customer() ;
+c48.ID =5049;
+c48.Password ="gowest";
+c48.Last Name ="West";
+c48.First Name ="Jake";
+c48.Middle Initial ="T";
+c48.Birthday =1/9/1976;
+c48.Street ="RR 3287";
+c48.City ="Austin";
+c48.State ="TX";
+c48.Zip =78705;
+c48.SSN =5938475244;
+c48.Email ="westj@pioneer.net";
+c48.PopcornPoints =70;
+db.Movie.AddOrUpdate(c => c.SSN, r48);
+db.SaveChanges();
+
+
+Customer c49= new Customer() ;
+c49.ID =5050;
+c49.Password ="louielouie";
+c49.Last Name ="Winthorpe";
+c49.First Name ="Louis";
+c49.Middle Initial ="L";
+c49.Birthday =4/19/1953;
+c49.Street ="2500 Padre Blvd";
+c49.City ="Austin";
+c49.State ="TX";
+c49.Zip =78747;
+c49.SSN =2105650098;
+c49.Email ="winner@hootmail.com";
+c49.PopcornPoints =150;
+db.Movie.AddOrUpdate(c => c.SSN, r49);
+db.SaveChanges();
+
+
+Customer c50= new Customer() ;
+c50.ID =5051;
+c50.Password ="woodyman1";
+c50.Last Name ="Wood";
+c50.First Name ="Reagan";
+c50.Middle Initial ="B.";
+c50.Birthday =12/28/2002;
+c50.Street ="447 Westlake Dr.";
+c50.City ="Austin";
+c50.State ="TX";
+c50.Zip =78753;
+c50.SSN =9074545242;
+c50.Email ="rwood@voyager.net";
+c50.PopcornPoints =20;
+db.Movie.AddOrUpdate(c => c.SSN, r50);
+db.SaveChanges();
+
+

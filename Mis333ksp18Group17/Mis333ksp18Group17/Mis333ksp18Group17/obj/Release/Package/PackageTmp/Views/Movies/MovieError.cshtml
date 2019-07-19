@@ -1,0 +1,13 @@
+﻿@model IEnumerable<string>
+@{
+    ViewBag.Title = "MovieError";
+}
+
+<h2>Error</h2>
+
+@if (ViewBag.ErrorM == "You must select at least a genre.")
+{
+    <h3 style="color: red"> @ViewBag.ErrorM</h3>
+}
+
+@Html.ActionLink("OK", "Create", "Movies", null, new { @class = "btn btn-success" })

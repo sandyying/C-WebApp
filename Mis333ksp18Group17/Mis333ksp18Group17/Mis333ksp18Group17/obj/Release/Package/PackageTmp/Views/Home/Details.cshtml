@@ -1,0 +1,145 @@
+﻿@model Mis333ksp18Group17.Models.Movie
+@using Mis333ksp18Group17.Models
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieNum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tagline)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tagline)
+        </dd>
+
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MPAARating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MPAARating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Actors)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Actors)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Runtime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Runtime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Overview)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Overview)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Revenue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Revenue)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AvgRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvgRating)
+        </dd>
+
+    </dl>
+</div>
+
+<div>
+    <table class="table table-sm table-striped">
+        <tr>
+            <th>Genre(s)</th>
+        </tr>
+        @foreach (Genre genre in Model.Genres)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => genre.Name)</td>
+            </tr>
+        }
+    </table>
+
+</div>
+
+
+<div>
+    <table class="table table-sm table-striped">
+
+        <tr>
+            <th>Location</th>
+            <th>Date</th>
+            <th>Start Time</th>
+            <th>Run Time</th>
+            <th>End Time</th>
+        </tr>
+
+        @foreach (var item in Model.Showings)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Location)</td>
+                <td>@Html.DisplayFor(modelItem => item.Date)</td>
+                <td>@Html.DisplayFor(modelItem => item.StartTime)</td>
+                <td>@Html.DisplayFor(modelItem => item.Runtime)</td>
+                <td>@Html.DisplayFor(modelItem => item.EndTime)</td>
+            </tr>
+        }
+    </table>
+</div>
+@if (Model.Showings.Count() != 0)
+{
+    @Html.ActionLink("Create Order", "Create", "Orders")
+}
+
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MovieID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

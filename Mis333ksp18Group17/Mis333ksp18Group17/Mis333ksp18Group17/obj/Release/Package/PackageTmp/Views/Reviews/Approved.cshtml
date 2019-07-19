@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Mis333ksp18Group17.Models.Review>
+
+@{
+    ViewBag.Title = "Approved";
+}
+
+<h2>Reviews</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Movie.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Reviews)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerRating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UpVote)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DownVote)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Movie.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Reviews)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerRating)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UpVote)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DownVote)
+        </td>
+        <td>
+            @if (User.IsInRole("Customer"))
+            {            
+                 @Html.ActionLink("Upvote", "Upvote", new { id = item.ReviewID })
+                 @("|")
+                 @Html.ActionLink("Downvote", "Downvote", new { id = item.ReviewID })
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.ReviewID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ReviewID }) |
+            @*@Html.ActionLink("Delete", "Delete", new { id = item.ReviewID })*@
+        </td>
+    </tr>
+    }
+
+</table>

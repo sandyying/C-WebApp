@@ -1,0 +1,170 @@
+﻿@model Mis333ksp18Group17.Models.OrderDetail
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>OrderDetail</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.OrderDetailID)
+    @*<div class="form-group">
+            <label class="control-label col-md-2">Select a product:</label>
+            <div class="col-md-10">
+                @Html.DropDownList("SelectedShowings", (SelectList)ViewBag.AllShowings, new { @class = "form-control" })
+            </div>
+        </div>*@
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Showing.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(model => model.Showing.Title, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Showing.Title, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Select a product:</label>
+        <div class="col-md-10">
+            @Html.DropDownList("SelectedSeat", (SelectList)ViewBag.GetAvaiableSeats, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border-color: #aabcfe;
+        }
+
+            .tg td {
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                padding: 10px 5px;
+                border-style: solid;
+                border-width: 1px;
+                overflow: hidden;
+                word-break: normal;
+                border-color: #aabcfe;
+                color: #669;
+                background-color: #F1948A;
+            }
+
+            .tg th {
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                padding: 10px 5px;
+                border-style: solid;
+                border-width: 1px;
+                overflow: hidden;
+                word-break: normal;
+                border-color: #aabcfe;
+                color: #039;
+                background-color: #F1948A;
+            }
+
+            .tg .tg-baqh {
+                text-align: center;
+                vertical-align: top
+            }
+
+            /*.tg .tg-mb3i {
+                background-color: #D2E4FC;
+                text-align: right;
+                vertical-align: top
+            }*/
+
+            .tg .tg-lqy6 {
+                text-align: right;
+                vertical-align: top
+            }
+
+            .tg .tg-yw4l {
+                vertical-align: top
+            }
+
+            .tg .tg-j0tj {
+                background-color: #D2E4FC;
+                text-align: center;
+                vertical-align: top
+            }
+
+            .tg .tg-6k2t {
+                background-color: #D2E4FC;
+                vertical-align: top
+            }
+    </style>
+    <table class="tg">
+        <tr>
+
+            <th class="tg-baqh" colspan="32">Screen</th>
+
+        </tr>
+        <tr>
+            <th class="tg-yw4l">A</th>
+            <td class="tg-baqh" colspan="4">A1</td>
+            <td class="tg-baqh" colspan="4">A2</td>
+            <td class="tg-baqh" colspan="4">A3</td>
+            <td class="tg-baqh" colspan="4">A4</td>
+            <td class="tg-baqh" colspan="4">A5</td>
+            <td class="tg-baqh" colspan="4">A6</td>
+            <td class="tg-baqh" colspan="4">A7</td>
+            <td class="tg-baqh" colspan="4">A8</td>
+        </tr>
+        <tr>
+            <th class="tg-yw4l">B</th>
+            <td class="tg-baqh" colspan="4">B1</td>
+            <td class="tg-baqh" colspan="4">B2</td>
+            <td class="tg-baqh" colspan="4">B3</td>
+            <td class="tg-baqh" colspan="4">B4</td>
+            <td class="tg-baqh" colspan="4">B5</td>
+            <td class="tg-baqh" colspan="4">B6</td>
+            <td class="tg-baqh" colspan="4">B7</td>
+            <td class="tg-baqh" colspan="4">B8</td>
+        </tr>
+        <tr>
+            <th class="tg-yw4l">C</th>
+            <td class="tg-baqh" colspan="4">C1</td>
+            <td class="tg-baqh" colspan="4">C2</td>
+            <td class="tg-baqh" colspan="4">C3</td>
+            <td class="tg-baqh" colspan="4">C4</td>
+            <td class="tg-baqh" colspan="4">C5</td>
+            <td class="tg-baqh" colspan="4">C6</td>
+            <td class="tg-baqh" colspan="4">C7</td>
+            <td class="tg-baqh" colspan="4">C8</td>
+        </tr>
+        <tr>
+            <th class="tg-yw4l">D</th>
+            <td class="tg-baqh" colspan="4">D1</td>
+            <td class="tg-baqh" colspan="4">D2</td>
+            <td class="tg-baqh" colspan="4">D3</td>
+            <td class="tg-baqh" colspan="4">D4</td>
+            <td class="tg-baqh" colspan="4">D5</td>
+            <td class="tg-baqh" colspan="4">D6</td>
+            <td class="tg-baqh" colspan="4">D7</td>
+            <td class="tg-baqh" colspan="4">D8</td>
+        </tr>
+
+    </table>
+    <p>
+    <p />
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

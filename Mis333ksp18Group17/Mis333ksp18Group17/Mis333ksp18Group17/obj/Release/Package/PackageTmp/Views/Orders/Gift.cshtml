@@ -1,0 +1,34 @@
+﻿@model Mis333ksp18Group17.Models.Order
+@using Mis333ksp18Group17.Controllers
+
+@{
+    ViewBag.Title = "Gift";
+}
+
+<h2>Gift</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Order</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.OrderID)
+
+
+        <div class="form-group">
+            <label class="radio">@Html.RadioButton("GiftOrNot", Gift.Yes, true) Yes</label>
+            <label class="radio">@Html.RadioButton("GiftOrNot", Gift.No) No</label>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+

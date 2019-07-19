@@ -1,0 +1,339 @@
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll.config
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.xml
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csprojResolveAssemblyReference.cache
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.CoreCompileInputs.cache
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.InitialSetup.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.GenerateResource.Cache
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._1.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._3.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._2.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._4.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._5.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._6.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._9.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._111.resources
+C:\Users\Rui Ying\Documents\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._1111.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csprojResolveAssemblyReference.cache
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.CoreCompileInputs.cache
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll.config
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._8257.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.GenerateResource.Cache
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._732697453.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._3423.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._42538.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._67315.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.jhdaf.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.yuggj.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\WebGrease.dll
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.pdb
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.xml
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.hjsdfgahj.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.addmigration786582.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.hjsgf.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.dajdasjf.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._76876.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.jsf.resources
+C:\Users\Rui Ying\Desktop\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.jhdfsg.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll.config
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\WebGrease.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.pdb
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csprojResolveAssemblyReference.cache
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.CoreCompileInputs.cache
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._1.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.GenerateResource.Cache
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._23u324y1iu.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._723524375243.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._372287.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csprojResolveAssemblyReference.cache
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._1.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._23u324y1iu.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._723524375243.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._372287.resources
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.GenerateResource.Cache
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.CoreCompileInputs.cache
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll.config
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Owin.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\WebGrease.dll
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.pdb
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.xml
+C:\Users\Rui Ying\Desktop\S18Team17 (2)\S18Team17 (2)\S18Team17\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._873465.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll.config
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Owin.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\WebGrease.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.pdb
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csprojResolveAssemblyReference.cache
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._1.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._23u324y1iu.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._723524375243.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._372287.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.GenerateResource.Cache
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.CoreCompileInputs.cache
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.sjkfahkja.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._75463.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._63t4527.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll.config
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Owin.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\WebGrease.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Antlr3.Runtime.pdb
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\EntityFramework.SqlServer.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\Newtonsoft.Json.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Optimization.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Razor.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Helpers.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\bin\System.Web.Mvc.xml
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csprojResolveAssemblyReference.cache
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._1.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._23u324y1iu.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._723524375243.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._372287.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.sjkfahkja.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._75463.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._63t4527.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.GenerateResource.Cache
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.csproj.CoreCompileInputs.cache
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.dll
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.pdb
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._7823567.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._7483.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.dsjkf.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.dsfja.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._9345892.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations.jksafjk.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._83t528743.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._387.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._83444.resources
+C:\Users\Rui Ying\Desktop\Mis333ksp18Group17 (2)\Mis333ksp18Group17\Mis333ksp18Group17\obj\Debug\Mis333ksp18Group17.Migrations._32587.resources

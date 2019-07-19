@@ -1,0 +1,170 @@
+﻿@model Mis333ksp18Group17.Models.Order
+@using Mis333ksp18Group17.Models
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+<div>
+    <h4>Order</h4>
+    <hr />
+
+    @Html.HiddenFor(model => model.OrderID)
+    @*<dl class="dl-horizontal">*@
+    @*<dt>
+            @Html.DisplayNameFor(model => model.OrderNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrderNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrderDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Notes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notes)
+        </dd>*@
+
+
+    @*<dt>
+            @Html.DisplayNameFor(model => model.Receipent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Receipent)
+        </dd>*@
+
+
+
+    @*<dt>
+            @Html.DisplayNameFor(model => model.PaymentMethod)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentMethod)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreditCardNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreditCardNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CardType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CardType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpirationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpirationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CardHolder)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CardHolder)
+        </dd>*@
+
+    @*</dl>*@
+</div>
+}
+    <h4>Ticket</h4>
+    <table class="table table-sm table-striped table-hover">
+        <tr>
+            <th>Movie Title</th>
+            <th>Date</th>
+            <th>Start Time</th>
+            <th>Seat Assignment</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+            <th>Discount Type</th>
+        </tr>
+        @foreach (OrderDetail od in Model.OrderDetails)
+        {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => od.Showing.Title)</td>
+            <td>@Html.DisplayFor(modelItem => od.Showing.Date)</td>
+            <td>@Html.DisplayFor(modelItem => od.Showing.StartTime)</td>
+            <td>@Html.DisplayFor(modelItem => od.SeatAssignment)</td>
+            <td>@Html.DisplayFor(modelItem => od.Showing.MoviePrice)</td>
+            <td>@Html.DisplayFor(modelItem => od.Quantity)</td>
+            <td>@Html.DisplayFor(modelItem => od.TotalPrice)</td>
+            <td>@Html.DisplayFor(modelItem => od.DiscountType)</td>
+        </tr>
+        }
+    </table>
+
+    <table class="table table-sm table-bordered" style="width:30%">
+        <tr>
+            <th colspan="2" style="text-align:center">Order Summary</th>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Subtotal)</td>
+            <td>@Html.DisplayFor(model => model.Subtotal)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.TotalBeforeTax)</td>
+            <td>@Html.DisplayFor(model => model.TotalBeforeTax)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.SalesTax)</td>
+            <td>@Html.DisplayFor(model => model.SalesTax)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.TotalPrice)</td>
+            <td>@Html.DisplayFor(model => model.TotalPrice)</td>
+        </tr>
+        
+    </table>
+
+
+    <p>
+
+
+        @*@Html.ActionLink("Check Out", "CheckOutMethod", new { id = Model.OrderID })*@
+        @if (!Model.CheckOutStatus)
+        {
+            if (User.IsInRole("Employee"))
+            {
+                     @Html.ActionLink("Get Email", "GetEmail", null, new { @class = "btn btn-primary" })
+           
+            }
+            else
+            {
+                @Html.ActionLink("Check Out", "Gift", new { id = Model.OrderID }, new { @class = "btn btn-primary" })
+            }
+            @Html.ActionLink("Add Ticket", "AddToOrder", new { OrderID = Model.OrderID }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Edit Existing Ticket", "Edit", new { id = Model.OrderID }, new { @class = "btn btn-primary" })
+            }
+        else
+        {
+            @Html.ActionLink("Summary", "Summary", new { id = Model.OrderID }, new { @class = "btn btn-primary" })
+
+
+        }
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-primary" })
+    </p>

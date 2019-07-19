@@ -1,0 +1,34 @@
+﻿@model Mis333ksp18Group17.Models.Showing
+@using Mis333ksp18Group17.Controllers
+@{
+    ViewBag.Title = "Cancellation";
+}
+
+<h2>Cancellation</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Showing</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ShowingID)
+
+        <div class="form-group">
+            <label class="radio">@Html.RadioButton("Confirm", Confirm.Yes, true) Yes</label>
+            <label class="radio">@Html.RadioButton("Confirm", Confirm.No) No</label>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

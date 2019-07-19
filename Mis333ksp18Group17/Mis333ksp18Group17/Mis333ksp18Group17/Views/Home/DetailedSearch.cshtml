@@ -1,0 +1,74 @@
+﻿@using Mis333ksp18Group17.Controllers;
+@{
+    /**/
+
+    ViewBag.Title = "DetailedSearch";
+}
+
+<h2>DetailedSearch</h2>
+
+@using (Html.BeginForm("DisplaySearchResults", "Home", FormMethod.Get))
+{
+    <p class="form-group">
+        Search Title: @Html.TextBox("strTitle", null, new { @class = "form-control" })
+        <br />
+        Search Tagline: @Html.TextBox("strTagline", null, new { @class = "form-control" })<br />
+
+        Select Genre: @Html.ListBox("enumGenres", (MultiSelectList)ViewBag.AllGenres, new { @class = "form-control" })
+        <br /><br />
+
+        MPAA Rating:
+        <div class="form-group">
+            <label class="radio">@Html.RadioButton("Rating", enumMPAA.All, true)All</label>
+            <label class="radio">@Html.RadioButton("Rating", enumMPAA.PG)PG</label>
+            <label class="radio">@Html.RadioButton("Rating", enumMPAA.PG13)PG13</label>
+            <label class="radio">@Html.RadioButton("Rating", enumMPAA.G)G</label>
+            <label class="radio">@Html.RadioButton("Rating", enumMPAA.NC17)NC17</label>
+            <label class="radio">@Html.RadioButton("Rating", enumMPAA.R)R</label>
+            <label class="radio">@Html.RadioButton("Rating", enumMPAA.Unrated)Unrated</label>
+        </div>
+        Search Actors: @Html.TextBox("strActor", null, new { @class = "form-control" })<br />
+
+
+        <br />
+        <div class="form-group">
+            Release Year: <input type="date" name="SelectedReleaseYear" class="form-control" />
+
+        </div>
+        <div class="form-group">
+            <label class="radio">@Html.RadioButton("SelectedClass", Classification.After, true) After</label>
+            <label class="radio">@Html.RadioButton("SelectedClass", Classification.Before) Before</label>
+        @*    <label class="radio">@Html.RadioButton("SelectedClass", Classification.Equal) Equal</label>*@
+        </div>
+
+    </p>
+
+    <div class="form-group">
+        Search Average Customer Rating :@Html.TextBox("CustomerRating", null, new { @class = "form-control" })<div class=" text-danger"> @ViewBag.Message</div>
+        <label class="radio">@Html.RadioButton("CustomerRatingRank", StarRank.GreaterThan, true)Grater than</label>
+        <label class="radio">@Html.RadioButton("CustomerRatingRank", StarRank.LessThan)Less than</label>
+        <label class="radio">@Html.RadioButton("CustomerRatingRank", StarRank.Equal)Equal</label>
+    </div>
+
+    <div class="form-group">
+        Search Run Time :@Html.TextBox("RunTime", null, new { @class = "form-control" })<div class=" text-danger"> @ViewBag.Message1</div>
+        <label class="radio">@Html.RadioButton("RunTimeG", StarRank.GreaterThan, true)Grater than</label>
+        <label class="radio">@Html.RadioButton("RunTimeG", StarRank.LessThan)Less than</label>
+        <label class="radio">@Html.RadioButton("RunTimeG", StarRank.Equal) Equal</label>
+    </div>
+
+    <div class="form-group">
+        Upcoming Show Time: <input type="date" name="SelectedShowTime" class="form-control" />
+
+    </div>
+    <div class="form-group">
+        <label class="radio">@Html.RadioButton("SelectedClass1", Classification.After, true) After</label>
+        <label class="radio">@Html.RadioButton("SelectedClass1", Classification.Before) Before</label>
+        @*<label class="radio">@Html.RadioButton("SelectedClass1", Classification.Equal) Equal</label>*@
+    </div>
+
+
+    <p class="form-group">
+        <input type="submit" value="Search" class="btn btn-default" />
+    </p>
+}

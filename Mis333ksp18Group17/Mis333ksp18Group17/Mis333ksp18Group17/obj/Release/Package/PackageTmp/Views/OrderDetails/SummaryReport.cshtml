@@ -1,0 +1,130 @@
+﻿@model IEnumerable<Mis333ksp18Group17.Models.OrderDetail>
+@using Mis333ksp18Group17.Controllers;
+
+@{
+    ViewBag.Title = "SummaryReport";
+}
+
+<h2>SummaryReport</h2>
+
+@using (Html.BeginForm())
+{
+<p class="form-group">
+    Search Title: @Html.TextBox("SearchTitle", null, new { @class = "form-control" })
+    <br />
+    Search Customer First Name: @Html.TextBox("SearchFirstName", null, new { @class = "form-control" })<br />
+    Search Customer Last Name: @Html.TextBox("SearchLastName", null, new { @class = "form-control" })<br />
+
+    @*Select Genre: @Html.ListBox("enumGenres", (MultiSelectList)ViewBag.AllGenres, new { @class = "form-control" })
+    <br />*@<br />
+
+    Payment Method:
+            <div class="form-group">
+                <label class="radio">@Html.RadioButton("Method", PaymentMethod.All, true) All</label>
+                <label class="radio">@Html.RadioButton("Method", PaymentMethod.CreditCard) Credit Card</label>
+                <label class="radio">@Html.RadioButton("Method", PaymentMethod.PopcornPoints) Popcorn Point</label>
+            </div>
+
+    @*Search Actors: @Html.TextBox("strActor", null, new { @class = "form-control" })<br />*@
+
+
+    <br />
+    <div class="form-group">
+        Showing Date: <input type="date" name="SelectedShowingDate" class="form-control" />
+
+    
+    </div>
+    <div class="form-group">
+        <label class="radio">@Html.RadioButton("SelectedClass1", Classification.After) After</label>
+        <label class="radio">@Html.RadioButton("SelectedClass1", Classification.Before) Before</label>
+        <label class="radio">@Html.RadioButton("SelectedClass1", Classification.All,true) All</label>
+    </div>
+
+    <div class="form-group">
+        Order Date: <input type="date" name="SelectedOrderDate" class="form-control" />
+
+    </div>
+    <div class="form-group">
+        <label class="radio">@Html.RadioButton("SelectedClass2", Classification.After) After</label>
+        <label class="radio">@Html.RadioButton("SelectedClass2", Classification.Before) Before</label>
+        <label class="radio">@Html.RadioButton("SelectedClass2", Classification.All,true) All</label>
+    </div>
+
+</p>
+
+
+    <p class="form-group">
+        <input type="submit" value="Search" class="btn btn-default" />
+    </p>
+
+    <p>
+        Total Revenue: @ViewBag.Revenue</p>
+    <p>
+        Displaying @ViewBag.SelectedSeats out of @ViewBag.TotalSeats Seats
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Showing.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Showing.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order.OrderDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order.AppUser.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order.AppUser.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SeatAssignment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MoviePrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order.TotalPrice)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Showing.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Showing.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Order.OrderDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Order.AppUser.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Order.AppUser.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SeatAssignment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MoviePrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Order.TotalPrice)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.OrderDetailID }) |            
+            @*@Html.ActionLink("Delete", "Delete", new { id = item.OrderDetailID })*@
+        </td>
+    </tr>
+    }
+
+</table>

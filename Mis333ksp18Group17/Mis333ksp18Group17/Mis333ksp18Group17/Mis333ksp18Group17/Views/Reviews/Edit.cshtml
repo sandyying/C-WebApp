@@ -1,0 +1,73 @@
+﻿@model Mis333ksp18Group17.Models.Review
+@using Mis333ksp18Group17.Controllers
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Review</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ReviewID)
+
+    @*<div class="form-group">
+            <label class="control-label col-md-2">Movies</label>
+            <div class="col-md-10">
+                @Html.DropDownList("SelectedMovies", (SelectList)ViewBag.AllMovies, new { @class = "form-control" })
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Movie.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DisplayFor(model => model.Movie.Title, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Movie.Title, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Reviews, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Reviews, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Reviews, "", new { @class = "text-danger" })
+            </div>
+
+
+            Select Rating:
+            <div class="form-group">
+                <label class="radio">@Html.RadioButton("Rating", enumCustomerRating.a, true)1</label>
+                <label class="radio">@Html.RadioButton("Rating", enumCustomerRating.b)2</label>
+                <label class="radio">@Html.RadioButton("Rating", enumCustomerRating.c)3</label>
+                <label class="radio">@Html.RadioButton("Rating", enumCustomerRating.d)4</label>
+                <label class="radio">@Html.RadioButton("Rating", enumCustomerRating.e)5</label>
+
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Vote, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <div class="checkbox">
+                        @Html.EditorFor(model => model.Vote)
+                        @Html.ValidationMessageFor(model => model.Vote, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>

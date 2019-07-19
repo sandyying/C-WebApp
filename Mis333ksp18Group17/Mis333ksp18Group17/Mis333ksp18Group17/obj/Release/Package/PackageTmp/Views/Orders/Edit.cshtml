@@ -1,0 +1,103 @@
+﻿@model Mis333ksp18Group17.Models.Order
+@using Mis333ksp18Group17.Models
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Order</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.OrderID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.OrderNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.OrderNumber, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.OrderNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.OrderDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DisplayFor(model => model.OrderDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.OrderDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Notes, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Notes, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Notes, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<h4>Ticket</h4>
+<table class="table table-sm table-striped table-hover">
+    <tr>
+        <th>Movie Title</th>
+        <th>Date</th>
+        <th>Start Time</th>
+        <th>Seat Assignment</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total Price</th>
+    </tr>
+    @foreach (OrderDetail od in Model.OrderDetails)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => od.Showing.Title)</td>
+            <td>@Html.DisplayFor(modelItem => od.Showing.Date)</td>
+            <td>@Html.DisplayFor(modelItem => od.Showing.StartTime)</td>
+            <td>@Html.DisplayFor(modelItem => od.SeatAssignment)</td>
+            <td>@Html.DisplayFor(modelItem => od.MoviePrice)</td>
+            <td>@Html.DisplayFor(modelItem => od.Quantity)</td>
+            <td>@Html.DisplayFor(modelItem => od.TotalPrice)</td>
+        </tr>
+    }
+</table>
+
+
+<table class="table table-sm table-bordered" style="width:30%">
+    <tr>
+        <th colspan="2" style="text-align:center">Order Summary</th>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(model => model.Subtotal)</td>
+        <td>@Html.DisplayFor(model => model.Subtotal)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(model => model.TotalBeforeTax)</td>
+        <td>@Html.DisplayFor(model => model.TotalBeforeTax)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(model => model.SalesTax)</td>
+        <td>@Html.DisplayFor(model => model.SalesTax)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(model => model.TotalPrice)</td>
+        <td>@Html.DisplayFor(model => model.TotalPrice)</td>
+    </tr>
+
+</table>
+
+<div>
+    @Html.ActionLink("Add Ticket", "AddToOrder", new { OrderID = Model.OrderID }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Change Seat / Change Showing", "RemoveFromOrder", new { OrderID = Model.OrderID }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-primary" })
+</div>
+

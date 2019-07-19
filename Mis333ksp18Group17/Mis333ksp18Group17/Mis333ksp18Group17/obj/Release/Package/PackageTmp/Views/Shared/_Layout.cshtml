@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - GitHub Repository Search</title>   
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+         @Html.ActionLink("Search Showing", "ScheduleViewForCustomer", "Showings", null, new { @class = "nav-link" })
+         @Html.ActionLink("Reviews", "Approved", "Reviews", null, new { @class = "nav-link" })
+        @if (Request.IsAuthenticated)
+        {
+             @Html.ActionLink("Order", "Index", "Orders", null, new { @class = "nav-link" })            
+             @Html.ActionLink("Credit Card", "Index", "CreditCards", null, new { @class = "nav-link" })            
+
+            if (User.IsInRole("Employee"))
+            {
+                @Html.ActionLink("Sell Ticket", "Create", "Orders", null, new { @class = "nav-link" }) //manager and emplooyee
+                @Html.ActionLink("Employee Profile", "EmployeeProfile", "Employees", null, new { @class = "nav-link" })
+                @Html.ActionLink("To Pending Reviews", "Index", "Reviews", null, new { @class = "nav-link" })
+
+                if(User.IsInRole("Manager"))    
+                {
+                    @Html.ActionLink("Movie", "Index", "Movies", null, new { @class = "nav-link" })//manager    
+                    @Html.ActionLink("Schedule Showing", "Index", "Showings", null, new { @class = "nav-link" })
+                    @Html.ActionLink("Summary Report", "SummaryReport", "OrderDetails", null, new { @class = "nav-link" })
+                    @Html.ActionLink("Role Admin", "Index", "RoleAdmin", null, new { @class = "nav-link" })
+                }
+            }
+            else
+            {               
+                  @Html.ActionLink("Order History", "OrderHistory", "Orders", null, new { @class = "nav-link" }) //only customer
+                  @Html.ActionLink("View Profile", "CustomerProfile", "Customers", null, new { @class = "nav-link" })            
+            }
+        }
+        
+       
+    </nav>
+
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Bevosoft Consultants</p>
+            </footer>
+        </div>
+
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

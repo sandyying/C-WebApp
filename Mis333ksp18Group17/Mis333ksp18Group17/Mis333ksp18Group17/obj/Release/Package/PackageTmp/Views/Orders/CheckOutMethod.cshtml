@@ -1,0 +1,43 @@
+﻿@using Mis333ksp18Group17.Controllers;
+@model Mis333ksp18Group17.Models.Order
+
+
+@{
+    ViewBag.Title = "CheckOut";
+}
+<h2>CheckOut</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+
+
+    @*<div class="form-group">
+            <label class="radio">@Html.RadioButton("Rating", PaymentMethod.PopcornPoints, true) Popcorn Points</label>
+            <label class="radio">@Html.RadioButton("Rating", PaymentMethod.CreditCard) Credit Card</label>
+        </div>*@
+
+    @*<td>*@
+
+    @Html.ActionLink("Popcorn Point", "Popcorn", new { id = Model.OrderID }, new { @class = "btn btn-primary" }) 
+    @Html.ActionLink("Existing Credit Card", "CreditCardCheckOut", new { id = Model.OrderID }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Check Out With New Card", "OtherCheckOut", new { id = Model.OrderID }, new { @class = "btn btn-primary" })
+
+    @*<div class="form-group">
+                <label class="control-label col-md-2">Using Existing Credit Card</label>
+                <div class="col-md-10">
+                    @Html.DropDownList("SelectedCard", (SelectList)ViewBag.allCards, new { @class = "form-control" })
+                </div>
+            </div>
+        </td>*@
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Mis333ksp18Group17.Models.Showing>
+
+@{
+    ViewBag.Title = "ScheduleViewForManager";
+}
+
+<h2>ScheduleViewForManager</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm())
+{
+    <p class="form-group">
+        Search Title: @Html.TextBox("MovieName", null, new { @class = "form-control" }) <br />
+        <input type="submit" value="Search" class="btn btn-default" />
+    </p>
+    <p>
+        Displaying @ViewBag.SelectedShowings out of  @ViewBag.TotalShowings Showings
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Movie.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.StartTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Runtime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pending)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MoviePrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SpecialEvent)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Movie.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.EndDate)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.StartTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Runtime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pending)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MoviePrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SpecialEvent)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.ShowingID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ShowingID }) |
+           @* @Html.ActionLink("Delete", "Delete", new { id = item.ShowingID })*@
+        </td>
+    </tr>
+    }
+
+</table>

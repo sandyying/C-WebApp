@@ -1,0 +1,71 @@
+﻿@model IEnumerable<string>
+
+@{
+    ViewBag.Title = "Error";
+}
+
+<h2>Error</h2>
+@if (ViewBag.Error == "Insufficient Popcorn Points")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+@if (ViewBag.Error == "You must choose what to purchase first")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+@if (ViewBag.Error == "You need to create a separate transaction.")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+@if (ViewBag.Error == "You can't purchase a ticket that already started.")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+@if (ViewBag.Error == "You can't purchase movies that overlap times.")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+@if (ViewBag.Error == "You can't purchase NC17 or R.")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+
+
+@if (ViewBag.Error == "Invalid Card Type")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+@if (ViewBag.Error == "Expiration date is Required")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+
+
+@if (ViewBag.Error == "You can't purchase a ticket that already started .")
+{
+    <h3 style="color: red"> @ViewBag.Error</h3>
+}
+@if (ViewBag.ErrorNoReceipent == "You need to enter email for receipent")
+{
+    <h3 style="color: red">@ViewBag.ErrorNoReceipent</h3>
+}
+@if (ViewBag.ErrorNoReceipent1 == "No User Available")
+{
+    <h3 style="color: red">@ViewBag.ErrorNoReceipent1</h3>
+}
+
+@if (ViewBag.ErrorCancellation == "You can't cancel this order. Because at least one of your showing starts within an hour")
+{
+    <h3 style="color: red">@ViewBag.ErrorCancellation</h3>
+}
+@if (ViewBag.NoCancelTwiceOrder == "This order has already been cancelled")
+{
+    <h3 style="color: red">@ViewBag.NoCancelTwiceOrder</h3>
+}
+
+@if (ViewBag.Error == "You need to select seat.")
+{
+    <h3 style="color: red">@ViewBag.Error</h3>
+}
+ 
+@Html.ActionLink("OK", "Index", null, new { @class = "btn btn-success" })

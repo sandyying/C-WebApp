@@ -1,0 +1,457 @@
+Employee e0= new Employee() ;
+e0.LastName ="Jacobs";
+e0.FirstName ="Todd";
+e0.Initial ="L";
+e0.PSW ="society";
+e0.SSN ="341553365";
+e0.EmpType =Employee;
+e0.Address ="4564 Elm St.";
+e0.City ="Georgetown";
+e0.State ="TX";
+e0.Zip =78628;
+e0.Phone =9074653365;
+e0.Email ="t.jacobs@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e0);
+db.SaveChanges();
+
+
+Employee e1= new Employee() ;
+e1.LastName ="Rice";
+e1.FirstName ="Eryn";
+e1.Initial ="M";
+e1.PSW ="ricearoni";
+e1.SSN ="454776657";
+e1.EmpType =Manager;
+e1.Address ="3405 Rio Grande";
+e1.City ="Austin";
+e1.State ="TX";
+e1.Zip =78746;
+e1.Phone =9073876657;
+e1.Email ="e.rice@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e1);
+db.SaveChanges();
+
+
+Employee e2= new Employee() ;
+e2.LastName ="Ingram";
+e2.FirstName ="Brad";
+e2.Initial ="S";
+e2.PSW ="ingram45";
+e2.SSN ="797348821";
+e2.EmpType =Employee;
+e2.Address ="6548 La Posada Ct.";
+e2.City ="Austin";
+e2.State ="TX";
+e2.Zip =78705;
+e2.Phone =9074678821;
+e2.Email ="b.ingram@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e2);
+db.SaveChanges();
+
+
+Employee e3= new Employee() ;
+e3.LastName ="Taylor";
+e3.FirstName ="Allison";
+e3.Initial ="R";
+e3.PSW ="nostalgic";
+e3.SSN ="934778452";
+e3.EmpType =Employee;
+e3.Address ="467 Nueces St.";
+e3.City ="Austin";
+e3.State ="TX";
+e3.Zip =78727;
+e3.Phone =9074748452;
+e3.Email ="a.taylor@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e3);
+db.SaveChanges();
+
+
+Employee e4= new Employee() ;
+e4.LastName ="Martinez";
+e4.FirstName ="Gregory";
+e4.Initial ="R";
+e4.PSW ="fungus";
+e4.SSN ="463566718";
+e4.EmpType =Employee;
+e4.Address ="8295 Sunset Blvd.";
+e4.City ="Austin";
+e4.State ="TX";
+e4.Zip =78712;
+e4.Phone =9078746718;
+e4.Email ="g.martinez@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e4);
+db.SaveChanges();
+
+
+Employee e5= new Employee() ;
+e5.LastName ="Sheffield";
+e5.FirstName ="Martin";
+e5.Initial ="J";
+e5.PSW ="longhorns";
+e5.SSN ="223449167";
+e5.EmpType =Employee;
+e5.Address ="3886 Avenue A";
+e5.City ="San Marcos";
+e5.State ="TX";
+e5.Zip =78666;
+e5.Phone =9075479167;
+e5.Email ="m.sheffield@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e5);
+db.SaveChanges();
+
+
+Employee e6= new Employee() ;
+e6.LastName ="MacLeod";
+e6.FirstName ="Jennifer";
+e6.Initial ="D";
+e6.PSW ="smitty";
+e6.SSN ="775908138";
+e6.EmpType =Employee;
+e6.Address ="2504 Far West Blvd.";
+e6.City ="Austin";
+e6.State ="TX";
+e6.Zip =78705;
+e6.Phone =9074748138;
+e6.Email ="j.macleod@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e6);
+db.SaveChanges();
+
+
+Employee e7= new Employee() ;
+e7.LastName ="Tanner";
+e7.FirstName ="Jeremy";
+e7.Initial ="S";
+e7.PSW ="tanman";
+e7.SSN ="904440929";
+e7.EmpType =Employee;
+e7.Address ="4347 Almstead";
+e7.City ="Austin";
+e7.State ="TX";
+e7.Zip =78712;
+e7.Phone =9074590929;
+e7.Email ="j.tanner@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e7);
+db.SaveChanges();
+
+
+Employee e8= new Employee() ;
+e8.LastName ="Rhodes";
+e8.FirstName ="Megan";
+e8.Initial ="C";
+e8.PSW ="countryrhodes";
+e8.SSN ="353904746";
+e8.EmpType =Employee;
+e8.Address ="4587 Enfield Rd.";
+e8.City ="Austin";
+e8.State ="TX";
+e8.Zip =78729;
+e8.Phone =9073744746;
+e8.Email ="m.rhodes@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e8);
+db.SaveChanges();
+
+
+Employee e9= new Employee() ;
+e9.LastName ="Stuart";
+e9.FirstName ="Eric";
+e9.Initial ="F";
+e9.PSW ="stewboy";
+e9.SSN ="363998335";
+e9.EmpType =Employee;
+e9.Address ="5576 Toro Ring";
+e9.City ="Austin";
+e9.State ="TX";
+e9.Zip =78758;
+e9.Phone =9078178335;
+e9.Email ="e.stuart@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e9);
+db.SaveChanges();
+
+
+Employee e10= new Employee() ;
+e10.LastName ="Miller";
+e10.FirstName ="Charles";
+e10.Initial ="R";
+e10.PSW ="squirrel";
+e10.SSN ="353308615";
+e10.EmpType =Employee;
+e10.Address ="8962 Main St.";
+e10.City ="Austin";
+e10.State ="TX";
+e10.Zip =78709;
+e10.Phone =9077458615;
+e10.Email ="c.miller@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e10);
+db.SaveChanges();
+
+
+Employee e11= new Employee() ;
+e11.LastName ="Taylor";
+e11.FirstName ="Rachel";
+e11.Initial ="O";
+e11.PSW ="swansong";
+e11.SSN ="393412631";
+e11.EmpType =Manager;
+e11.Address ="345 Longview Dr.";
+e11.City ="Austin";
+e11.State ="TX";
+e11.Zip =78746;
+e11.Phone =9074512631;
+e11.Email ="r.taylor@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e11);
+db.SaveChanges();
+
+
+Employee e12= new Employee() ;
+e12.LastName ="Lawrence";
+e12.FirstName ="Victoria";
+e12.Initial ="Y";
+e12.PSW ="lottery";
+e12.SSN ="770097399";
+e12.EmpType =Employee;
+e12.Address ="6639 Butterfly Ln.";
+e12.City ="Austin";
+e12.State ="TX";
+e12.Zip =78712;
+e12.Phone =9079457399;
+e12.Email ="v.lawrence@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e12);
+db.SaveChanges();
+
+
+Employee e13= new Employee() ;
+e13.LastName ="Rogers";
+e13.FirstName ="Allen";
+e13.Initial ="H";
+e13.PSW ="evanescent";
+e13.SSN ="700002943";
+e13.EmpType =Manager;
+e13.Address ="4965 Oak Hill";
+e13.City ="Austin";
+e13.State ="TX";
+e13.Zip =78705;
+e13.Phone =9078752943;
+e13.Email ="a.rogers@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e13);
+db.SaveChanges();
+
+
+Employee e14= new Employee() ;
+e14.LastName ="Markham";
+e14.FirstName ="Elizabeth";
+e14.Initial ="K";
+e14.PSW ="monty3";
+e14.SSN ="101529845";
+e14.EmpType =Employee;
+e14.Address ="7861 Chevy Chase";
+e14.City ="Austin";
+e14.State ="TX";
+e14.Zip =78785;
+e14.Phone =9074579845;
+e14.Email ="e.markham@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e14);
+db.SaveChanges();
+
+
+Employee e15= new Employee() ;
+e15.LastName ="Baker";
+e15.FirstName ="Christopher";
+e15.Initial ="E";
+e15.PSW ="hecktour";
+e15.SSN ="401661146";
+e15.EmpType =Employee;
+e15.Address ="1245 Lake Anchorage Blvd.";
+e15.City ="Cedar Park";
+e15.State ="TX";
+e15.Zip =78613;
+e15.Phone =9075571146;
+e15.Email ="c.baker@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e15);
+db.SaveChanges();
+
+
+Employee e16= new Employee() ;
+e16.LastName ="Saunders";
+e16.FirstName ="Sarah";
+e16.Initial ="M";
+e16.PSW ="rankmary";
+e16.SSN ="500987810";
+e16.EmpType =Employee;
+e16.Address ="332 Avenue C";
+e16.City ="Austin";
+e16.State ="TX";
+e16.Zip =78733;
+e16.Phone =9073497810;
+e16.Email ="s.saunders@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e16);
+db.SaveChanges();
+
+
+Employee e17= new Employee() ;
+e17.LastName ="Sewell";
+e17.FirstName ="William";
+e17.Initial ="G";
+e17.PSW ="walkamile";
+e17.SSN ="500830084";
+e17.EmpType =Manager;
+e17.Address ="2365 51st St.";
+e17.City ="Austin";
+e17.State ="TX";
+e17.Zip =78755;
+e17.Phone =9074510084;
+e17.Email ="w.sewell@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e17);
+db.SaveChanges();
+
+
+Employee e18= new Employee() ;
+e18.LastName ="Mason";
+e18.FirstName ="Jack";
+e18.Initial ="L";
+e18.PSW ="changalang";
+e18.SSN ="1112223232";
+e18.EmpType =Employee;
+e18.Address ="444 45th St";
+e18.City ="Austin";
+e18.State ="TX";
+e18.Zip =78701;
+e18.Phone =9018833432;
+e18.Email ="j.mason@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e18);
+db.SaveChanges();
+
+
+Employee e19= new Employee() ;
+e19.LastName ="Jackson";
+e19.FirstName ="Jack";
+e19.Initial ="J";
+e19.PSW ="offbeat";
+e19.SSN ="8889993434";
+e19.EmpType =Employee;
+e19.Address ="222 Main";
+e19.City ="Austin";
+e19.State ="TX";
+e19.Zip =78760;
+e19.Phone =9075554545;
+e19.Email ="j.jackson@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e19);
+db.SaveChanges();
+
+
+Employee e20= new Employee() ;
+e20.LastName ="Nguyen";
+e20.FirstName ="Mary";
+e20.Initial ="J";
+e20.PSW ="landus";
+e20.SSN ="7776665555";
+e20.EmpType =Employee;
+e20.Address ="465 N. Bear Cub";
+e20.City ="Austin";
+e20.State ="TX";
+e20.Zip =78734;
+e20.Phone =9075524141;
+e20.Email ="m.nguyen@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e20);
+db.SaveChanges();
+
+
+Employee e21= new Employee() ;
+e21.LastName ="Barnes";
+e21.FirstName ="Susan";
+e21.Initial ="M";
+e21.PSW ="rhythm";
+e21.SSN ="1112221212";
+e21.EmpType =Employee;
+e21.Address ="888 S. Main";
+e21.City ="Kyle";
+e21.State ="TX";
+e21.Zip =78640;
+e21.Phone =9556662323;
+e21.Email ="s.barnes@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e21);
+db.SaveChanges();
+
+
+Employee e22= new Employee() ;
+e22.LastName ="Jones";
+e22.FirstName ="Lester";
+e22.Initial ="L";
+e22.PSW ="kindly";
+e22.SSN ="9099099999";
+e22.EmpType =Employee;
+e22.Address ="999 LeBlat";
+e22.City ="Austin";
+e22.State ="TX";
+e22.Zip =78747;
+e22.Phone =9886662222;
+e22.Email ="l.jones@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e22);
+db.SaveChanges();
+
+
+Employee e23= new Employee() ;
+e23.LastName ="Garcia";
+e23.FirstName ="Hector";
+e23.Initial ="W";
+e23.PSW ="instrument";
+e23.SSN ="4445554343";
+e23.EmpType =Employee;
+e23.Address ="777 PBR Drive";
+e23.City ="Austin";
+e23.State ="TX";
+e23.Zip =78712;
+e23.Phone =9221114444;
+e23.Email ="h.garcia@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e23);
+db.SaveChanges();
+
+
+Employee e24= new Employee() ;
+e24.LastName ="Silva";
+e24.FirstName ="Cindy";
+e24.Initial ="S";
+e24.PSW ="arched";
+e24.SSN ="7776661111";
+e24.EmpType =Employee;
+e24.Address ="900 4th St";
+e24.City ="Austin";
+e24.State ="TX";
+e24.Zip =78758;
+e24.Phone =9221113333;
+e24.Email ="c.silva@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e24);
+db.SaveChanges();
+
+
+Employee e25= new Employee() ;
+e25.LastName ="Lopez";
+e25.FirstName ="Marshall";
+e25.Initial ="T";
+e25.PSW ="median";
+e25.SSN ="2223332222";
+e25.EmpType =Employee;
+e25.Address ="90 SW North St";
+e25.City ="Austin";
+e25.State ="TX";
+e25.Zip =78729;
+e25.Phone =9234442222;
+e25.Email ="m.lopez@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e25);
+db.SaveChanges();
+
+
+Employee e26= new Employee() ;
+e26.LastName ="Larson";
+e26.FirstName ="Bill";
+e26.Initial ="B";
+e26.PSW ="approval";
+e26.SSN ="5554443333";
+e26.EmpType =Employee;
+e26.Address ="1212 N. First Ave";
+e26.City ="Round Rock";
+e26.State ="TX";
+e26.Zip =78665;
+e26.Phone =9795554444;
+e26.Email ="b.larson@longhorncinema.com";
+db.Movie.AddOrUpdate(e => e.SSN, e26);
+db.SaveChanges();
